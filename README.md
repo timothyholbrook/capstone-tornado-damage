@@ -17,13 +17,11 @@ Questions:
 - What is the impact on crop damage compared to property damage caused by tornadoes in the United 
   States? 
 
-
-  <b>Project Requirements<b>
-
-  1. Read TWO data files (JSON, CSV, Excel, etc.).
+<b>Project Requirements<b>
+  
+   1. Read TWO data files (JSON, CSV, Excel, etc.).
      - 1950-23 damage_fatal_injury.csv
      - 1950-2023_tor_fatalities.csv
 
   2. Clean your data and perform a pandas merge with your two data sets, then calculate some new
      values based on the new data set.
-     -   
