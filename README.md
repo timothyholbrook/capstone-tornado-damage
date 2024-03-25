@@ -1,12 +1,11 @@
-# <b>Tornado Damage and Casualties<b>
+# Tornado Damage and Casualties
 
+![tornado](images/tornado.jpg)
 
-![tornado](images/tornado.jpg)</br>
 Tornado damage since 1950 has been significant, with numerous destructive tornadoes causing 
 extensive damage to crops and infrastructure as well as resulting in many casualties and injuries.
 
-
-## <b>Objective<b>
+## Objective
 
 The objective of this project is to analyze and present data on tornado occurrences in the United
 States since 1950, showing the extent of damage inflicted on both crops and infrastructure.
@@ -18,7 +17,7 @@ Questions:
 - What is the impact on crop damage compared to property damage caused by tornadoes in the United 
   States? 
 
-## <b>Project Requirements<b>
+## Project Requirements
   
    1. Read TWO data files (JSON, CSV, Excel, etc.).
      - 1950-23 damage_fatal_injury.csv
