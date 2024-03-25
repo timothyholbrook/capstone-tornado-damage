@@ -14,8 +14,8 @@ these disasters.
 
 Questions:
 
-- How many casualties and injuries do tornadoes typically inflict upon the United States annually?
-- What is the impact on crop damage compared to property damage caused by tornadoes in the United 
+-How many casualties and injuries do tornadoes typically inflict upon the United States annually?
+-What is the impact on crop damage compared to property damage caused by tornadoes in the United 
   States? 
 
 ## Project Requirements
