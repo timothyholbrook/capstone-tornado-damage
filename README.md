@@ -18,7 +18,7 @@ Questions:
   States? 
 
 
-  ##<b>Project Requirements<b>
+  <b>Project Requirements<b>
 
   1. Read TWO data files (JSON, CSV, Excel, etc.).
      - 1950-23 damage_fatal_injury.csv
