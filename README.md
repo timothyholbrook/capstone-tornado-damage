@@ -30,6 +30,16 @@ Questions:
      - Data was cleaned in clean.ipynb
      - Pandas merge was performed in Main.ipynb
 
+
 3. Make a Tableau dashboard to display your data
      - Tableau dashboard can be viewed [here](https://public.tableau.com/app/profile/timothy.holbrook/vizzes)
+
+
+4. Utilize a virtual environment and include instructions in your README on how the user should set
+   one up.
+
+
+5. Annotate your code with markdown cells in Jupyter Notebook, write clear code comments, and have a
+   well-written README.md
+
 
