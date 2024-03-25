@@ -7,6 +7,7 @@ extensive damage to crops and infrastructure as well as resulting in many casual
 
 
 ## <b>Objective<b>
+
 The objective of this project is to analyze and present data on tornado occurrences in the United
 States since 1950, showing the extent of damage inflicted on both crops and infrastructure.
 Additionally, the project aims to present the number of injuries and fatalities resulting from
