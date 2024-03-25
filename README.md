@@ -20,7 +20,7 @@ Questions:
 
 ## Project Requirements
   
-   1. Read TWO data files (JSON, CSV, Excel, etc.):
+1. Read TWO data files (JSON, CSV, Excel, etc.):
   - 1950-23 damage_fatal_injury.csv
   - 1950-2023_tor_fatalities.csv
 
