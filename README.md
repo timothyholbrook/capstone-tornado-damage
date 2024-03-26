@@ -14,7 +14,7 @@ these disasters.
 
 Questions:
 
-- What is the impact on crop damage compared to property damage caused by tornadoes in the United 
+- What is the impact of crop damage compared to property damage caused by tornadoes in the United 
   States? 
 - How many injuries and fatalities do tornadoes typically inflict upon the United States annually?
 
@@ -63,7 +63,47 @@ Questions:
 8. "clean.py" and "Main.py can be ran in Visual Studio Code.
    - Open Visual Studio Code and navigate to project folder.
    - Open "clean.py" or "Main.py" 
-   - Right click on "clean.py" and "Main.py" and click Run Current File in Interactive Window. 
+   - Right click on "clean.py" and "Main.py" and click Run Current File in Interactive Window.
+
+
+   ## Conclusion
+
+    Crop and Property Damage
+
+   As illustrated in the image below, you can see the extent of property damage is significantly higher than that of crop damage. Tornadoes unleash strong winds and flying debris, which can damage homes, businesses, and other structures. Agricultural crops can also experience major damage, but this seems to be more localized depending on factors such as the tornado's path and crop type.
+
+   ![cropvsproperty](images/crop_property.PNG)
+   [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/CropDamagevs_PropertyDamagewithAnnualTornadoCount/Sheet22)
+
+
+   
+   Injuries and Fatalities
+
+   Advances in technology and communication have allowed timely alerts and increased
+   preparedness. People are given advance notices to have an opportunity to seek shelter
+   faster. Prompt emergency response has also contributed to the lower numbers over the years.
+   As illustrated below, you can see the comparison of injuries and fatalities pulled from the
+   data analyzed.
+
+      ![injvsfat](images/inj_fat.PNG)
+   [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/InjuriesvsFatalities/Sheet3)
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
 
 
 
