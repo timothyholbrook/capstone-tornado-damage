@@ -40,47 +40,47 @@ def get_data_for_year_and_column(year, column):
     # Filter the DataFrame for the specified year
     data_for_year = combined_file[combined_file['Year'] == year]
     
-    # Check if data exists for the year
+    #Check if data exists for the year
     if not data_for_year.empty:
         # Retrieve data for the column
         data = data_for_year.iloc[0][column]
         
-        # Check if the column is Crop Damage or Property Damage
+        #Check if the column is Crop Damage or Property Damage
         if column == 'Crop Damage' or column == 'Property Damage':
             # Convert data to numeric
             data = pd.to_numeric(data, errors='coerce')
             
-            # Format data to display in $ format
+            #Format data to display in $ format
             data = "${:,.0f}".format(data)
         
         return data
     else:
         return 'No data recorded for that year'
 
-# Intro to Crops and Property Damage
+#Intro to Crops and Property Damage
 bold_text = "**Crop and Property Damage**"
 additional_text = "In this section of the project, you can view crop and property damage along with the number of tornadoes for each year."
 display(Markdown(bold_text))
 print(additional_text)
 
-# Ask the user for input
+#Ask the user for input
 year_input = input("Enter the year to get the data for that year(1950-2023): ")
 column_input = input("Enter the column name to look up (Options: Crop Damage, Property Damage, # of Tornadoes): ")
 
-# Convert the input year to integer
+#Convert the input year to integer
 year_input = int(year_input)
 
-# Retrieve data for the specified year and column
+#Retrieve data for the specified year and column
 data_for_year_and_column = get_data_for_year_and_column(year_input, column_input)
 
-# Print the result
+#Print the result
 print(f"{column_input} in {year_input}: {data_for_year_and_column}")
 
 
 # In[5]:
 
 
-# Load the combined_file.csv into a DataFrame
+#Load the combined_file.csv into a DataFrame
 combined_file = pd.read_csv('combined_file.csv')
 
 #Intro to Injuries
@@ -89,16 +89,16 @@ additional_text = "In this section, you can explore the annual injuries resultin
 display(Markdown(bold_text))
 print(additional_text)
 
-# Ask the user for input
+#Ask the user for input
 year_input = input("Enter the year to get the number of injuries for that year: ")
 
-# Convert the input year to integer
+#Convert the input year to integer
 year_input = int(year_input)
 
-# Filter the DataFrame for the specified year
+#Filter the DataFrame for the specified year
 data_for_year = combined_file[combined_file['Year'] == year_input]
 
-# Check if data exists for the specified year
+#Check if data exists for the specified year
 if not data_for_year.empty:
     # Retrieve the number of injuries for the specified year
     num_injuries = data_for_year.iloc[0]['Injuries']
