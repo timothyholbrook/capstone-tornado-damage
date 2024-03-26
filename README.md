@@ -49,7 +49,7 @@ Questions:
 
 1. Python 3 is required. Project was created with version 3.11.7. Python can be downloaded [here](https://www.python.org/downloads/)
 2. Clone the repo from GitHub.
-   - You can create a GitHub account [here](github.com) if needed.
+   - You can create a GitHub account [here](https://github.com/) if needed.
    - To learn how to clone a repo on GitHub, please click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 3. Setup virtual enviorment. Please type the following into terminal of your choice inside main folder once cloned.
    - On macOS/Linux: python3 -m venv venv
