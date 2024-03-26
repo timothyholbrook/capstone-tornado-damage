@@ -51,14 +51,15 @@ Questions:
 2. Clone the repo from GitHub.
    - You can create a GitHub account [here](https://github.com/) if needed.
    - To learn how to clone a repo on GitHub, please click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
-3. Setup virtual enviorment. Please type the following into terminal of your choice inside main folder once cloned.
+3. Setup virtual enviorment. Please run the following into terminal of your choice inside main folder once cloned.
    - On macOS/Linux: python3 -m venv venv
    - On Windows: python -m venv venv
 4. Activate virtual enviorment
    - on macOS/Linux: source venv/bin/activate
    - on Windows: venv\Scripts\activate
-5. Install dependencies: pip install -r requirements.txt
-6. After installation completes, you can verify what was installed with: pip list 
+5. Install dependencies: run "pip install -r requirements.txt"
+6. After installation completes, you can verify what was installed with: run "pip list"
+7. 
 
 
 
