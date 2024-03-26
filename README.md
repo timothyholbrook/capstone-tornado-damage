@@ -14,9 +14,9 @@ these disasters.
 
 Questions:
 
-- How many casualties and injuries do tornadoes typically inflict upon the United States annually?
 - What is the impact on crop damage compared to property damage caused by tornadoes in the United 
   States? 
+- How many casualties and injuries do tornadoes typically inflict upon the United States annually?
 
 ## Project Requirements
   
@@ -31,8 +31,11 @@ Questions:
      - Pandas merge was performed in Main.ipynb
 
 
-3. Make a Tableau dashboard to display your data
-     - Tableau dashboard can be viewed [here](https://public.tableau.com/app/profile/timothy.holbrook/vizzes)
+3. Make a Tableau dashboard to display your data.
+
+![fatvsinj](images/Tornado Fatalities vs Injuries.png)
+
+   - Tableau dashboard can be viewed [here](https://public.tableau.com/app/profile/timothy.holbrook/vizzes)
 
 
 4. Utilize a virtual environment and include instructions in your README on how the user should set
