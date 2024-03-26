@@ -51,13 +51,13 @@ Questions:
 2. Clone the repo from GitHub.
    - You can create a GitHub account [here](https://github.com/) if needed.
    - To learn how to clone a repo on GitHub, please click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
-3. Setup virtual enviorment. Please run the following into terminal of your choice inside main folder once cloned.
+3. Setup virtual environment. Please run the following into terminal of your choice inside main folder once cloned.
    - On macOS/Linux: python3 -m venv venv
    - On Windows: python -m venv venv
-4. Activate virtual enviorment
+4. Activate virtual environment
    - on macOS/Linux: source venv/bin/activate
-   - on Windows: venv\Scripts\activate
-5. Install dependencies: run "pip install -r requirements.txt"
+   - on Windows: venv/Scripts/activate
+5. Install requirements: run "pip install -r requirements.txt"
 6. After installation completes, you can verify what was installed with: run "pip list"
 7. You can run the "clean.ipynb" and "Main.ipynb" files in Jupyter Notebook. For more info on Jupyter Notebook please click [here](https://www.jupyter.org/).
 8. "clean.py" and "Main.py can be ran in Visual Studio Code.
