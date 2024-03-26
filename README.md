@@ -72,7 +72,7 @@ Questions:
 
    As illustrated in the image below, you can see the extent of property damage is significantly higher than that of crop damage. Tornadoes unleash strong winds and flying debris, which can damage homes, businesses, and other structures. Agricultural crops can also experience major damage, but this seems to be more localized depending on factors such as the tornado's path and crop type.
 
-   ![cropvsproperty](images/crop_property.PNG)
+   ![cropvsproperty](images/crop_property.png)
    [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/CropDamagevs_PropertyDamagewithAnnualTornadoCount/Sheet22)
 
 
@@ -85,7 +85,7 @@ Questions:
    As illustrated below, you can see the comparison of injuries and fatalities pulled from the
    data analyzed.
 
-   ![injvsfat](images/inj_fat.PNG)
+   ![injvsfat](images/inj_fat.png)
    [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/InjuriesvsFatalities/Sheet3)
 
 
