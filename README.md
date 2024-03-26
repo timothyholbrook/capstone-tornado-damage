@@ -59,7 +59,12 @@ Questions:
    - on Windows: venv\Scripts\activate
 5. Install dependencies: run "pip install -r requirements.txt"
 6. After installation completes, you can verify what was installed with: run "pip list"
-7. 
+7. You can run the "clean.ipynb" and "Main.ipynb" files in Jupyter Notebook. For more info on Jupyter Notebook please click [here](https://www.jupyter.org/).
+8. "clean.py" and "Main.py can be ran in Visual Studio Code.
+   - Open Visual Studio Code and navigate to project folder.
+   - Open "clean.py" or "Main.py" 
+   - Right click on "clean.py" and "Main.py" and click Run Current File in Interactive Window. 
+
 
 
 
