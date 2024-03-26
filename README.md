@@ -85,7 +85,7 @@ Questions:
    As illustrated below, you can see the comparison of injuries and fatalities pulled from the
    data analyzed.
 
-      ![injvsfat](images/inj_fat.PNG)
+   ![injvsfat](images/inj_fat.PNG)
    [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/InjuriesvsFatalities/Sheet3)
 
 
