@@ -33,7 +33,7 @@ Questions:
 
 3. Make a Tableau dashboard to display your data.
 
-!(images/Tornado Fatalities vs Injuries.PNG)
+![fatalities](images/fatvsinj.PNG)
 
    - Tableau dashboard can be viewed [here](https://public.tableau.com/app/profile/timothy.holbrook/vizzes)
 
