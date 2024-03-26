@@ -46,6 +46,7 @@ Questions:
 
 
 ## Running the Project
+Project performs best in Jupyter Notebook but can be executed in Visual Studio Code as well.
 
 1. Python 3 is required. Project was created with version 3.11.7. Python can be downloaded [here](https://www.python.org/downloads/).
 2. Clone the repo from GitHub.
