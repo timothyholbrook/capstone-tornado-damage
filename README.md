@@ -47,7 +47,7 @@ Questions:
 
 ## Running the Project
 
-1. Python 3 is required. Project was created with version 3.11.7. Python can be downloaded [here](https://www.python.org/downloads/)
+1. Python 3 is required. Project was created with version 3.11.7. Python can be downloaded [here](https://www.python.org/downloads/).
 2. Clone the repo from GitHub.
    - You can create a GitHub account [here](https://github.com/) if needed.
    - To learn how to clone a repo on GitHub, please click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
