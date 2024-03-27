@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import pandas as pd
@@ -10,22 +10,29 @@ from IPython.display import Image
 import numpy as np
 
 
-# In[2]:
+# In[ ]:
 
 
 # Load cleaned data file
 df = pd.read_csv('combined_file.csv')
 
 
-# In[3]:
+# In[ ]:
 
 
 #Load Image
 print("Tornado Damages and Fatalities in The United States Since 1950")
-Image(url="images/west_lib_1.jpg", width=400, height=100)  
+Image(url="images/west_lib_1.jpg")
 
 
-# In[4]:
+# In[ ]:
+
+
+#load tableau vizz crop vs property damage
+Image(filename='images/cr_pr.jpg')
+
+
+# In[ ]:
 
 
 #Load the combined_file.csv into a DataFrame
@@ -59,7 +66,7 @@ def get_data_for_year_and_column(year, column):
 
 #Intro to Crops and Property Damage
 bold_text = "**Crop and Property Damage**"
-additional_text = "In this section of the project, you can view crop and property damage along with the number of tornadoes for each year."
+additional_text = "In this section of the project, you can view crop and property damage along with the number of tornadoes for each year. Please note that crop damage was only tracked after 1993."
 display(Markdown(bold_text))
 print(additional_text)
 
@@ -77,7 +84,14 @@ data_for_year_and_column = get_data_for_year_and_column(year_input, column_input
 print(f"{column_input} in {year_input}: {data_for_year_and_column}")
 
 
-# In[5]:
+# In[ ]:
+
+
+#load tableau vizz Injuries
+Image(filename='images/tornado_injuries.png')
+
+
+# In[ ]:
 
 
 #Load the combined_file.csv into a DataFrame
@@ -105,6 +119,13 @@ if not data_for_year.empty:
     print(f"The number of injuries in {year_input} was: {num_injuries}")
 else:
     print("No data found for the specified year.")
+
+
+# In[ ]:
+
+
+#Load tableau viss average fatalities
+Image(filename='images/avg_fat.png')
 
 
 # In[ ]:
