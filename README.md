@@ -33,7 +33,7 @@ Questions:
 
 3. Make a Tableau dashboard to display your data.
 
-![fatalities](images/Dashboard.PNG)
+![Dashboard](images/Dashboard.png)
    
    Tableau dashboard can be viewed [here](https://public.tableau.com/app/profile/timothy.holbrook/vizzes).
 
