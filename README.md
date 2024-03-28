@@ -71,7 +71,7 @@ Questions:
 
     Crop and Property Damage
 
-   As illustrated in the image below, you can see the extent of property damage is significantly higher than that of crop damage. Tornadoes unleash strong winds and flying debris, which can damage homes, businesses, and other structures. Agricultural crops can also experience major damage, but this seems to be more localized depending on factors such as the tornado's path and crop type.
+   As illustrated in the image below, you can see the extent of property damage is significantly higher than that of crop damage. Tornadoes unleash strong winds and flying debris, which can damage homes, businesses, and other structures. Agricultural crops can also experience major damage, but this seems to be more localized depending on factors such as the tornado's path and crop type. From the data analyzed, the average property damage a year from 1950 to 2023 is $970,478,139.05. The average crop damage a year from those same years is $15,799,214.38.
 
    ![cropvsproperty](images/crop_property.png)
    [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/CropDamagevs_PropertyDamagewithAnnualTornadoCount/Sheet22)
@@ -84,7 +84,7 @@ Questions:
    preparedness. People are given advance notices to have an opportunity to seek shelter
    faster. Prompt emergency response has also contributed to the lower numbers over the years.
    As illustrated below, you can see the comparison of injuries and fatalities pulled from the
-   data analyzed.
+   data analyzed. The average injuries a year from 1950 to 2023 is 1330. The average fatalities a year from 1950 to 2023 is 84. 
 
    ![fatalities](images/fatvsinj.PNG)
    [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/TornadoFatalitiesvsInjuriesBarLine/Sheet2)
