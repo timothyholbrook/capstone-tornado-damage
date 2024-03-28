@@ -33,7 +33,8 @@ Questions:
 
 3. Make a Tableau dashboard to display your data.
 
-![fatalities](images/fatvsinj.PNG)
+![fatalities](images/Dashboard.PNG)
+   
    Tableau dashboard can be viewed [here](https://public.tableau.com/app/profile/timothy.holbrook/vizzes).
 
 
@@ -85,8 +86,8 @@ Questions:
    As illustrated below, you can see the comparison of injuries and fatalities pulled from the
    data analyzed.
 
-   ![injvsfat](images/inj_fat.png)
-   [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/InjuriesvsFatalities/Sheet3)
+   ![fatalities](images/fatvsinj.PNG)
+   [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/TornadoFatalitiesvsInjuriesBarLine/Sheet2)
 
 
 
