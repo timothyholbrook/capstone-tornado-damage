@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 import pandas as pd
@@ -10,14 +10,14 @@ from IPython.display import Image
 import numpy as np
 
 
-# In[ ]:
+# In[2]:
 
 
-# Load cleaned data file
+#Load cleaned data file
 df = pd.read_csv('combined_file.csv')
 
 
-# In[ ]:
+# In[3]:
 
 
 #Load Image
@@ -25,14 +25,14 @@ print("Tornado Damages and Fatalities in The United States Since 1950")
 Image(url="images/west_lib_1.jpg")
 
 
-# In[ ]:
+# In[4]:
 
 
 #load tableau vizz crop vs property damage
 Image(filename='images/cr_pr.jpg')
 
 
-# In[ ]:
+# In[5]:
 
 
 #Load the combined_file.csv into a DataFrame
@@ -84,14 +84,14 @@ data_for_year_and_column = get_data_for_year_and_column(year_input, column_input
 print(f"{column_input} in {year_input}: {data_for_year_and_column}")
 
 
-# In[ ]:
+# In[6]:
 
 
 #load tableau vizz Injuries
 Image(filename='images/tornado_injuries.png')
 
 
-# In[ ]:
+# In[7]:
 
 
 #Load the combined_file.csv into a DataFrame
@@ -121,60 +121,113 @@ else:
     print("No data found for the specified year.")
 
 
-# In[ ]:
+# In[8]:
 
 
-#Load tableau viss average fatalities
+#Load tableau vizz average fatalities
 Image(filename='images/avg_fat.png')
 
 
-# In[ ]:
+# In[9]:
 
 
 #Load the datasets
 modified_date = pd.read_csv('modified_date.csv')
 combined_file = pd.read_csv('combined_file.csv')
 
-#Merge the datasets based on column
+bold_text = "**Fatalities**"
+additional_text = "In this section, you can explore the annual Fatalities resulting from tornadoes."
+display(Markdown(bold_text))
+print(additional_text)
+
+#Merge the datasets column
 merged_df = pd.merge(modified_date, combined_file, on='Year', how='inner')
 
-#Calculate the average fatalities per year by summing the fatalities from both DataFrames and dividing by 2
+#Calculate the average fatalities per year from both df and divide by 2
 merged_df['Average_Fatalities'] = (merged_df['Fatalities_x'] + merged_df['Fatalities_y']) / 2
 
 #Round the Average_Fatalities column and store it in a new column named 'Fatalities'
 merged_df['Fatalities'] = merged_df['Average_Fatalities'].round().astype(int)
 
-#Create a new DataFrame with only the Year and Fatalities columns
+#Create a new df with only the Year and Fatalities columns
 new_df = merged_df[['Year', 'Fatalities']]
 
-#Save the new DataFrame to a CSV file
+#Save the new df to a CSV file
 new_df.to_csv('combined_average_fatalities.csv', index=False)
 
-#Intro to Fatalities
-bold_text = "**Fatalities**"
-additional_text = "In this section, you can explore the annual fatalities resulting from tornadoes. I have merged 2 CSV files for a more accurate number."
+#Ask the user for a year
+input_year = input("Enter a year to get the average number of fatalities between the two files(1950-2023): ")
+    
+#Convert to int
+input_year = int(input_year)
+    
+#Filter the merged df for the specified year
+yearly_data = merged_df[merged_df['Year'] == input_year]
+
+#Get the average number of fatalities for year
+if len(yearly_data) > 0:
+    average_fatalities_for_input_year = yearly_data['Fatalities'].iloc[0]
+    print(f"Average number of fatalities for {input_year} between the two files: {average_fatalities_for_input_year}")
+else:
+    print(f"No data available for the year {input_year} between the two files")
+
+
+# In[10]:
+
+
+#Split the concatenated values in the "Property Damage" column and convert them to numeric
+df['Property Damage'] = df['Property Damage'].apply(lambda x: sum(float(i) for i in x.split('$') if i.strip()))
+
+#Calculate average property damage
+average_property_damage = df["Property Damage"].mean()
+
+#Convert the average property damage back to $
+average_property_damage_dollars = "${:,.2f}".format(average_property_damage)
+
+#Print the average property damage
+bold_text = "**Average Property Damage from 1950 to 2023**"
 display(Markdown(bold_text))
-print(additional_text)
+print("The average Property Damage from 1950 to 2023 is", average_property_damage_dollars)
 
-while True:
-    #Prompt the user for a year
-    input_year = input("Enter a year to get the average number of fatalities between the two files(1950-2023) (type 'exit' to quit): ")
-    
-    #Check if the user wants to exit
-    if input_year.lower() == 'exit':
-        print("Exiting the program...")
-        break
-    
-    #Convert to int
-    input_year = int(input_year)
-    
-    #Filter the merged DataFrame for the specified year
-    yearly_data = merged_df[merged_df['Year'] == input_year]
 
-    #Get the average number of fatalities for the specified year
-    if len(yearly_data) > 0:
-        average_fatalities_for_input_year = yearly_data['Fatalities'].iloc[0]
-        print(f"Average number of fatalities for {input_year} between the two files: {average_fatalities_for_input_year}")
-    else:
-        print(f"No data available for the year {input_year} between the two files")
+# In[11]:
+
+
+#Convert non-string values to string
+df['Crop Damage'] = df['Crop Damage'].apply(lambda x: sum(float(i) for i in str(x).split('$') if i.strip()))
+
+#Calculate average crop damage
+average_crop_damage = df["Crop Damage"].mean()
+
+#Convert the average crop damage back to $
+average_crop_damage_dollars = "${:,.2f}".format(average_crop_damage)
+
+#Print the average crop damage
+bold_text = "**Average Crop Damage from 1950 to 2023**"
+display(Markdown(bold_text))
+print("The average Crop Damage from 1950 to 2023 is", average_crop_damage_dollars)
+
+
+# In[12]:
+
+
+##Calculate average injuries and round to the nearest whole number
+average_injuries = round(df["Injuries"].mean())
+
+# Print the average injuries
+bold_text = "**Average Injuries from 1950 to 2023**"
+display(Markdown(bold_text))
+print("The average Injuries from 1950 to 2023 is", average_injuries)
+
+
+# In[13]:
+
+
+##Calculate average fatalities and round to the nearest whole number
+average_fatalities = round(df["Fatalities"].mean())
+
+#Print the average fatalities
+bold_text = "**Average Fatalities from 1950 to 2023**"
+display(Markdown(bold_text))
+print("The average Fatalities from 1950 to 2023 is", average_fatalities)
 
