@@ -20,14 +20,14 @@ Questions:
 ## Project Requirements
   
 1. Read TWO data files (JSON, CSV, Excel, etc.):
-   - 1950-23 damage_fatal_injury.csv
-   - 1950-2023_tor_fatalities.csv
+   - **1950-23 damage_fatal_injury.csv**
+   - **1950-2023_tor_fatalities.csv**
 
 
 2. Clean your data and perform a pandas merge with your two data sets, then calculate some new
    values based on the new data set.
-     - Data was cleaned in clean.ipynb
-     - Pandas merge was performed in Main.ipynb
+     - Data was cleaned in **clean.ipynb**
+     - Pandas merge was performed in **Main.ipynb**
 
 
 3. Make a Tableau dashboard to display your data.
