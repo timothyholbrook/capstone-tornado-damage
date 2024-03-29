@@ -14,8 +14,7 @@ these disasters.
 
 Questions:
 
-- What is the impact of crop damage compared to property damage caused by tornadoes in the United 
-  States? 
+- What is the impact of crop damage compared to property damage caused by tornadoes in the United States? 
 - How many injuries and fatalities do tornadoes typically inflict upon the United States annually?
 
 ## Project Requirements
@@ -38,12 +37,9 @@ Questions:
    Tableau dashboard can be viewed [here](https://public.tableau.com/app/profile/timothy.holbrook/vizzes).
 
 
-4. Utilize a virtual environment and include instructions in your README on how the user should set
-   one up.
+4. Utilize a virtual environment and include instructions in your README on how the user should set one up.
 
-
-5. Annotate your code with markdown cells in Jupyter Notebook, write clear code comments, and have a
-   well-written README.md
+5. Annotate your code with markdown cells in Jupyter Notebook, write clear code comments, and have a well-written README.md
 
 
 ## Running the Project
@@ -60,16 +56,19 @@ Questions:
    - on Windows: venv/Scripts/activate
 5. Install requirements: run "pip install -r requirements.txt"
 6. After installation completes, you can verify what was installed with: run "pip list"
-7. You can run the "clean.ipynb" and "Main.ipynb" files in Jupyter Notebook. For more info on Jupyter Notebook please click [here](https://www.jupyter.org/).
-8. "clean.py" and "Main.py can be ran in Visual Studio Code.
+7. You can run the "clean.ipynb" and "Main.ipynb" files in Jupyter Notebook. Once "Main.ipynb is
+   executed the program will ask user to input a couple different fields. Once you have input
+   all fields, return to top of screen and scroll down for outputs. For more info on
+   Jupyter Notebook please click [here](https://www.jupyter.org/).
+8. "Main.py can be ran in Visual Studio Code. (Please note the latest version of VS Code must be installed)
    - Open Visual Studio Code and navigate to project folder.
-   - Open "clean.py" or "Main.py" 
-   - Right click on "clean.py" and "Main.py" and click Run Current File in Interactive Window.
+   - Open "Main.py" so the code is displayed on the screen.
+   - Right click on "Main.py" in the Explorer in Visual Studio Code and click Run Current File in Interactive Window.
 
 
-   ## Conclusion
+## Conclusion
 
-    Crop and Property Damage
+Crop and Property Damage
 
    As illustrated in the image below, you can see the extent of property damage is significantly higher than that of crop damage. Tornadoes unleash strong winds and flying debris, which can damage homes, businesses, and other structures. Agricultural crops can also experience major damage, but this seems to be more localized depending on factors such as the tornado's path and crop type. From the data analyzed, the average property damage a year from 1950 to 2023 is $970,478,139.05. The average crop damage a year from those same years is $15,799,214.38.
 
@@ -88,24 +87,3 @@ Questions:
 
    ![fatalities](images/fatvsinj.PNG)
    [Interactive Visualization](https://public.tableau.com/app/profile/timothy.holbrook/viz/TornadoFatalitiesvsInjuriesBarLine/Sheet2)
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
