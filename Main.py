@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import pandas as pd
@@ -10,29 +10,37 @@ from IPython.display import Image
 import numpy as np
 
 
-# In[2]:
+# In[ ]:
 
 
 #Load cleaned data file
 df = pd.read_csv('combined_file.csv')
 
 
-# In[3]:
+# In[ ]:
 
 
-#Load Image
-print("Tornado Damages and Fatalities in The United States Since 1950")
-Image(url="images/west_lib_1.jpg")
+#Define the text
+text = "Tornado Damages and Fatalities in The United States Since 1950"
+
+#Make the text bold using Markdown syntax
+bold_text = f"**{text}**"
+
+#Print the bold text
+display(Markdown(bold_text))
+
+#Display the image
+display(Image(url="images/west_lib_1.jpg"))
 
 
-# In[4]:
+# In[ ]:
 
 
 #load tableau vizz crop vs property damage
 Image(filename='images/cr_pr.jpg')
 
 
-# In[5]:
+# In[ ]:
 
 
 #Load the combined_file.csv into a DataFrame
@@ -84,14 +92,14 @@ data_for_year_and_column = get_data_for_year_and_column(year_input, column_input
 print(f"{column_input} in {year_input}: {data_for_year_and_column}")
 
 
-# In[6]:
+# In[ ]:
 
 
 #load tableau vizz Injuries
 Image(filename='images/tornado_injuries.png')
 
 
-# In[7]:
+# In[ ]:
 
 
 #Load the combined_file.csv into a DataFrame
@@ -121,14 +129,14 @@ else:
     print("No data found for the specified year.")
 
 
-# In[8]:
+# In[ ]:
 
 
 #Load tableau vizz average fatalities
 Image(filename='images/avg_fat.png')
 
 
-# In[9]:
+# In[ ]:
 
 
 #Load the datasets
@@ -172,7 +180,7 @@ else:
     print(f"No data available for the year {input_year} between the two files")
 
 
-# In[10]:
+# In[ ]:
 
 
 #Split the concatenated values in the "Property Damage" column and convert them to numeric
@@ -190,7 +198,7 @@ display(Markdown(bold_text))
 print("The average Property Damage from 1950 to 2023 is", average_property_damage_dollars)
 
 
-# In[11]:
+# In[ ]:
 
 
 #Convert non-string values to string
@@ -208,7 +216,7 @@ display(Markdown(bold_text))
 print("The average Crop Damage from 1950 to 2023 is", average_crop_damage_dollars)
 
 
-# In[12]:
+# In[ ]:
 
 
 ##Calculate average injuries and round to the nearest whole number
@@ -220,7 +228,7 @@ display(Markdown(bold_text))
 print("The average Injuries from 1950 to 2023 is", average_injuries)
 
 
-# In[13]:
+# In[ ]:
 
 
 ##Calculate average fatalities and round to the nearest whole number
