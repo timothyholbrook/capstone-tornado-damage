@@ -50,7 +50,7 @@ Questions:
    - To learn how to clone a repo on GitHub, please click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 3. Setup virtual environment. Please run the following into terminal of your choice inside main folder once cloned.
    - On macOS/Linux: ```python3 -m venv venv```
-   - On Windows: python ```-m venv venv```
+   - On Windows: ```python -m venv venv```
 4. Activate virtual environment
    - on macOS/Linux: ```source venv/bin/activate```
    - on Windows: ```venv/Scripts/activate```
